@@ -11,7 +11,7 @@ library(dplyr)
 
 url <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
 
-download.file(url, destfile = "UCI_HAR_Dataset.zip", mode = "wb")
+#download.file(url, destfile = "UCI_HAR_Dataset.zip", mode = "wb")
 
 unzip("UCI_HAR_Dataset.zip")
 

@@ -40,5 +40,15 @@ Contains the final independent tidy dataset.
 3. Set the working directory to the repository directory.
 4. Run:
 
+source("run_analysis.R")
+
+The script creates the file tidy_data.txt, containing the final tidy dataset.
+
+Dataset
+
+The original dataset is the Human Activity Recognition Using Smartphones Dataset, collected from the accelerometers of Samsung Galaxy S smartphones.
+
+The original dataset is available from the UCI Machine Learning Repository.
+
 ```r
 source("run_analysis.R")
